@@ -10,8 +10,8 @@ from sqlalchemy.exc import SQLAlchemyError
 DATABASE_NAME = "covid_db"
 DB_PARAMS = {
     "host": "localhost",
-    "user": "postgres",
-    "password": "Vanadio23"
+    "user": "username",
+    "password": "yourpass"
 }
 
 

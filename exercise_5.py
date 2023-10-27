@@ -21,9 +21,9 @@ def main() -> None:
 
 DB_PARAMS = {
   "host": "localhost",
-  "user": "postgres",
+  "user": "username",
   "database": "covid_db",
-  "password": "Vanadio23"
+  "password": "yourpass"
 }
 
 def get_covid_vaccine_data() -> pd.DataFrame:

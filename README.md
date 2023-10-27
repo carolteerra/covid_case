@@ -106,3 +106,7 @@ According to data from Our World in Data, countries with higher GDP per capita h
 2. **More densily populated countries have more cummulative cases in proportion to population**
 
 Namibia and Mongolia, the two least populated countries have proportionately less cummulativecases in relation to population than the two most populated coutnries, Monaco and Singapore.
+
+3. **Case fatality is lower among countries with higher vaccination coverage than among those with lower vaccination rates**
+
+The countries with most fatal cases, Syria, Sudan and Yemen, all have vaccination rates under 30%. The countries with least fatal cases, Bhutan, Singapore and Iceland all have vaccination rates above 80%.

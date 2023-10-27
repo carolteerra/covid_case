@@ -11,9 +11,9 @@ from psycopg2.extensions import register_adapter, AsIs
 
 DB_PARAMS = {
     "host": "localhost",
-    "user": "postgres",
+    "user": "username",
     "database": "covid_db",
-    "password": "Vanadio23"
+    "password": "yourpass"
 }
 
 TODAY = datetime.now().date()
@@ -89,7 +89,6 @@ def transform_phase(df: pd.DataFrame, string_to_float_columns_list=None) -> pd.D
 
   transformed_df = standardize_column_names(df)
   transformed_df['country'] = df['country'].str.strip()
-  transformed_df = transformed_df.replace(np.nan, None)
   transformed_df['updated_at'] = TODAY
 
   return transformed_df
